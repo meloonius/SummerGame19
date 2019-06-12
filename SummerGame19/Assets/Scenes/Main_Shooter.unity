@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 507428855}
   - component: {fileID: 507428854}
   - component: {fileID: 507428853}
+  - component: {fileID: 507428856}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -260,7 +261,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507428851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.85, z: 0}
+  m_LocalPosition: {x: 0, y: 3.44, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -289,7 +290,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
 --- !u!50 &507428854
 Rigidbody2D:
@@ -352,6 +353,20 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+--- !u!114 &507428856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507428851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d46bd3aa542d94bb9a167272cea196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accelerationTime: 0.5
+  maxSpeed: 2
+  rb: {fileID: 0}
 --- !u!1 &798623339
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +895,7 @@ GameObject:
   - component: {fileID: 1238243536}
   m_Layer: 0
   m_Name: Edges
-  m_TagString: Untagged
+  m_TagString: Edge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

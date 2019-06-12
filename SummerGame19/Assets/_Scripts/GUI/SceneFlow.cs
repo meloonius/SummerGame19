@@ -8,12 +8,12 @@ public class SceneFlow : MonoBehaviour
 
 	public void NewGame()
     {
-        SceneManager.LoadScene("MainShooter");
+        SceneManager.LoadScene("Main_Shooter");
     }
 
     public void OpenMenu()
     {
-        SceneManager.LoadScene("MainUI");
+        SceneManager.LoadScene("Main_UI");
     }
 
     public void ExitGame()

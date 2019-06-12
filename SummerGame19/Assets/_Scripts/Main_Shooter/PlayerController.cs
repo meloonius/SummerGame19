@@ -9,11 +9,11 @@ public class PlayerController : MonoBehaviour {
 
     Rigidbody2D rigBody;
     Vector2 moveVelocity;
-    Collider2D boxCol;
+    
     void Start()
     {
         rigBody = GetComponent<Rigidbody2D>();
-        boxCol = GetComponent<Collider2D>();
+        
     }
 
     void Update()

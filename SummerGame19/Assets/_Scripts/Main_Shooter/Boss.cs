@@ -6,7 +6,7 @@ public class Boss : MonoBehaviour
 {
     public int health = 100;
 
-    public GameObject deathEffect;
+    //public GameObject deathEffect;
 
     public void TakeDamage(int damage)
     {
@@ -20,7 +20,8 @@ public class Boss : MonoBehaviour
 
     void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        //deathEffect
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

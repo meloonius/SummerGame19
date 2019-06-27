@@ -1,15 +1,19 @@
 fileFormatVersion: 2
-guid: fe6b2bc7d493b184db92e62f5cfb03a2
+guid: 835f708ed0100ad42afc45385f654901
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bulletattempt5_0
-    21300002: bulletattempt5_1
-    21300004: bulletattempt5_2
-    21300006: bulletattempt5_3
-    21300008: bulletattempt5_4
-    21300010: bulletattempt5_5
-    21300012: bulletattempt5_6
-    21300014: bulletattempt5_7
+    21300000: conceptmonster3big_0
+    21300002: conceptmonster3big_1
+    21300004: conceptmonster3big_2
+    21300006: conceptmonster3big_3
+    21300008: conceptmonster3big_4
+    21300010: conceptmonster3big_5
+    21300012: conceptmonster3big_6
+    21300014: conceptmonster3big_7
+    21300016: conceptmonster3big_8
+    21300018: conceptmonster3big_9
+    21300020: conceptmonster3big_10
+    21300022: conceptmonster3big_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -92,13 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bulletattempt5_0
+      name: conceptmonster3big_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 4
-        height: 4
+        x: 0
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,19 +110,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32650dea25c8f449a7fd0074acecd72
+      spriteID: 2f0212e59ea9bbb4e99991659ea6780a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_1
+      name: conceptmonster3big_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3
-        width: 6
-        height: 6
+        x: 64
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffe0fd728daeebb4b89b90e8451cef0a
+      spriteID: 61a665ebaad44a34891c072a99723dba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_2
+      name: conceptmonster3big_2
       rect:
         serializedVersion: 2
-        x: 27
-        y: 3
-        width: 6
-        height: 6
+        x: 128
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3cf2c0f6d571354da644e64a91156d0
+      spriteID: a6b4adca6ff17d740bf36fe5c0264254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_3
+      name: conceptmonster3big_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 2
-        width: 8
-        height: 8
+        x: 193
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,19 +170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8ef3e5b706a22499e22214bb784bc6
+      spriteID: bd9e97d036d0e124698bc3d54caa0c83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_4
+      name: conceptmonster3big_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2
-        width: 8
-        height: 8
+        x: 257
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,19 +190,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a608473c073d347b78d2fd44002c9d
+      spriteID: 74674666bd9627b45a2d552126ef766b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_5
+      name: conceptmonster3big_5
       rect:
         serializedVersion: 2
-        x: 63
-        y: 3
-        width: 6
-        height: 6
+        x: 321
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,19 +210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b61833414976e70409d670f604d0e3db
+      spriteID: 1e3f68a738a86fd44bd3b723a801e693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_6
+      name: conceptmonster3big_6
       rect:
         serializedVersion: 2
-        x: 75
-        y: 3
-        width: 6
-        height: 6
+        x: 386
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,19 +230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4d618ca6ca2e149ac2bd3dad96024d
+      spriteID: 9ff1bfe2b4151594d8e02ce742454d17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bulletattempt5_7
+      name: conceptmonster3big_7
       rect:
         serializedVersion: 2
-        x: 88
-        y: 4
-        width: 4
-        height: 4
+        x: 450
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,7 +250,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24df1edc41239e4468c8e13bed7428bb
+      spriteID: 06b11e151aeef2c49999b309c2e76495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conceptmonster3big_8
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd682deef5b5594395928918a00d82c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conceptmonster3big_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f928ddb0c6b8409777f33842a1392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conceptmonster3big_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56593c22ff565544d936c2f989d2dc8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conceptmonster3big_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ed686c024b8d540a0bf8d44c5807c9
       vertices: []
       indices: 
       edges: []
@@ -254,7 +338,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 425321defd2efa1459f8d7b6043e7367
+    spriteID: 3071305c61b20c94a9d95bc7e9d15c30
     vertices: []
     indices: 
     edges: []

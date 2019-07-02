@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_UI.unity
     guid: b771085535e7fa24dbbd193ce4b1faa3
   - enabled: 1
+    path: Assets/Scenes/PlanetMap.unity
+    guid: ca47850d5526ccf479e600468b4df6e5
+  - enabled: 1
+    path: Assets/Scenes/Upgrade_UI.unity
+    guid: 8a81cc824368c72409c5061c81fe15d3
+  - enabled: 1
     path: Assets/Scenes/Boss1.unity
     guid: f92e72bdc1af6d9478b80bac1d87681b
+  - enabled: 1
+    path: Assets/Scenes/Boss2.unity
+    guid: b196bec54c95fd14da1a83fb817106e5
+  - enabled: 1
+    path: Assets/Scenes/Boss3.unity
+    guid: f95a50214571a974f80b4505fc400736
   m_configObjects: {}

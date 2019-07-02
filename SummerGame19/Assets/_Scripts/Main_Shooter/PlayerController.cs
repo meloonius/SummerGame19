@@ -9,7 +9,11 @@ public class PlayerController : MonoBehaviour {
 
     Rigidbody2D rigBody;
     Vector2 moveVelocity;
-    
+
+    public Transform firePoint;
+    public GameObject bulletPrefab;
+
+
     void Start()
     {
         rigBody = GetComponent<Rigidbody2D>();
@@ -20,11 +24,21 @@ public class PlayerController : MonoBehaviour {
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         moveVelocity = moveInput.normalized * speed;
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
     }
 
 
     private void FixedUpdate()
     {
         rigBody.MovePosition(rigBody.position + moveVelocity * Time.fixedDeltaTime);
+    }
+
+    void Shoot()
+    {
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

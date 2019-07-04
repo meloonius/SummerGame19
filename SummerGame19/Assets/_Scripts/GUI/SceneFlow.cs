@@ -15,11 +15,13 @@ public class SceneFlow : MonoBehaviour
     public void OpenMenu()
     {
         SceneManager.LoadScene("Main_UI");
+        Time.timeScale = 1f;
     }
 
     public void OpenPlanetMap()
     {
         SceneManager.LoadScene("PlanetMap");
+        Time.timeScale = 1f;
     }
 
     public void OpenUpgradeUI()

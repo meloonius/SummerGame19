@@ -30,4 +30,19 @@ public class SceneFlow : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void OpenBoss1()
+    {
+        SceneManager.LoadScene("Boss1");
+    }
+
+    public void OpenBoss2()
+    {
+        SceneManager.LoadScene("Boss2");
+    }
+
+    public void OpenBoss3()
+    {
+        SceneManager.LoadScene("Boss3");
+    }
 }

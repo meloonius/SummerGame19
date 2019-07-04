@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     public int health = 100;
 
     //public GameObject deathEffect;
+
+    public GameObject deathMenuUi;
 
     public void TakeDamage(int damage)
     {
@@ -20,8 +23,9 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        //deathEffect
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        Time.timeScale = 0f;
+        deathMenuUi.gameObject.SetActive(true);
     }
 }

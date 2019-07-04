@@ -55,3 +55,6 @@ TagManager:
   - name: Bullets
     uniqueID: 2586518589
     locked: 0
+  - name: DeathEffects
+    uniqueID: 1196425355
+    locked: 0

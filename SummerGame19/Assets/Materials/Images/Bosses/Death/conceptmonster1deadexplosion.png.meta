@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: c9f1c89a321a96446aff444f22effb88
-timeCreated: 1562147872
+timeCreated: 1562227881
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: conceptmonster1deadexplosion_0
+    21300002: conceptmonster1deadexplosion_1
+    21300004: conceptmonster1deadexplosion_2
+    21300006: conceptmonster1deadexplosion_3
+    21300008: conceptmonster1deadexplosion_4
+    21300010: conceptmonster1deadexplosion_5
+    21300012: conceptmonster1deadexplosion_6
+    21300014: conceptmonster1deadexplosion_7
+    21300016: conceptmonster1deadexplosion_8
+    21300018: conceptmonster1deadexplosion_9
+    21300020: conceptmonster1deadexplosion_10
+    21300022: conceptmonster1deadexplosion_11
+    21300024: conceptmonster1deadexplosion_12
+    21300026: conceptmonster1deadexplosion_13
+    21300028: conceptmonster1deadexplosion_14
+    21300030: conceptmonster1deadexplosion_15
+    21300032: conceptmonster1deadexplosion_16
+    21300034: conceptmonster1deadexplosion_17
+    21300036: conceptmonster1deadexplosion_18
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +77,320 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_5
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 33
+        width: 231
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_6
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 33
+        width: 230
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_7
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_8
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 33
+        width: 230
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_9
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_10
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 33
+        width: 228
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_11
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_12
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 33
+        width: 230
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_13
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_14
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 33
+        width: 249
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_15
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 33
+        width: 259
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 25
+        width: 250
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_17
+      rect:
+        serializedVersion: 2
+        x: 4364
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: conceptmonster1deadexplosion_18
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 33
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

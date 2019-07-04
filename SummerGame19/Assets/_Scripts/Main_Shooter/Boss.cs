@@ -6,7 +6,8 @@ public class Boss : MonoBehaviour
 {
     public int health = 100;
 
-    //public GameObject deathEffect;
+    //public Animation deathEffect;
+    public GameObject winMenuUi;
 
     public void TakeDamage(int damage)
     {
@@ -23,5 +24,8 @@ public class Boss : MonoBehaviour
         //deathEffect
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        //deathEffect.Play("die");
+        //Time.timeScale = 0f;
+        winMenuUi.gameObject.SetActive(true);
     }
 }

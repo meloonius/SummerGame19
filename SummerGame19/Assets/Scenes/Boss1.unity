@@ -5760,7 +5760,7 @@ GameObject:
   - component: {fileID: 2085634148}
   - component: {fileID: 2085634149}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Background1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

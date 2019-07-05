@@ -5,27 +5,31 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     public int health = 100;
+    public Animator anim;
 
-    //public Animation deathEffect;
     public GameObject winMenuUi;
+
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            anim = GetComponent<Animator>();
+            anim.Play("Boss1Death");
+            StartCoroutine(WaitBossDeath());
+        }
+
+    }
 
     public void TakeDamage(int damage)
     {
         health -= damage;
-        
-        if(health <= 0)
-        {
-            Die();
-        }
     }
 
-    void Die()
+    IEnumerator WaitBossDeath()
     {
-        //deathEffect
-        //Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-        //deathEffect.Play("die");
-        //Time.timeScale = 0f;
+        yield return new WaitForSeconds(1.6f);
         winMenuUi.gameObject.SetActive(true);
+        Time.timeScale = 0f;
     }
+
 }

@@ -43,9 +43,8 @@ public class EnemyMovement : MonoBehaviour
         }
 
         GetComponent<Rigidbody2D>().velocity = Velocity;
-        {
-            transform.Rotate(new Vector3(0, 0, 0) * Time.deltaTime);
-        }
-       
+        
+        //transform.Rotate(new Vector3(0, 0, 0) * Time.deltaTime);
+
     }
 }

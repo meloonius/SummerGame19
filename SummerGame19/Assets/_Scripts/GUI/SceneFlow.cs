@@ -36,15 +36,18 @@ public class SceneFlow : MonoBehaviour
     public void OpenBoss1()
     {
         SceneManager.LoadScene("Boss1");
+        Time.timeScale = 1f;
     }
 
     public void OpenBoss2()
     {
         SceneManager.LoadScene("Boss2");
+        Time.timeScale = 1f;
     }
 
     public void OpenBoss3()
     {
         SceneManager.LoadScene("Boss3");
+        Time.timeScale = 1f;
     }
 }

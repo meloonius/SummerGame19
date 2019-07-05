@@ -2083,6 +2083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  anim: {fileID: 0}
   winMenuUi: {fileID: 1870638657}
 --- !u!114 &507428859
 MonoBehaviour:
@@ -2098,7 +2099,7 @@ MonoBehaviour:
   firePoint: {fileID: 197717189}
   EnemybulletPrefab: {fileID: 5927142678994824857, guid: a503f481632195a4898a1035fc8a0c07,
     type: 2}
-  fireRate: 0.2
+  fireRate: 0.3
 --- !u!1 &518388043
 GameObject:
   m_ObjectHideFlags: 0
